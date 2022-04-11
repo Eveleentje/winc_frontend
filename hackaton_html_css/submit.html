@@ -1,0 +1,95 @@
+<head>
+    <title>Radical Rolling - submit and rate a spot in Amsterdam</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@600&family=Palanquin+Dark:wght@500&family=Rock+3D&display=swap"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="wrapper">
+        <header class="submit">
+            <nav>
+                <a href="index.html"
+                    ><img
+                        class="header-icon-small"
+                        src="img/arrows_long_left1600.png"
+                    />Back to home</a
+                >
+            </nav>
+            <h1>Submit your spot</h1>
+            <small>Let us know how accessible it is</small>
+        </header>
+        <main class="submit">
+            <form name="accessibility" method="POST" data-netlify="true">
+                <p>
+                    <label>Name<input type="text" name="name" /></label>
+                </p>
+                <p>
+                    <label
+                        >Email address<input type="email" name="email"
+                    /></label>
+                </p>
+                <p>
+                    <label
+                        >What's the name of the spot?<input
+                            type="text"
+                            name="type"
+                    /></label>
+                </p>
+                <p>
+                    <label
+                        >Which part of town?<input type="text" name="place"
+                    /></label>
+                </p>
+                <p>
+                    <label
+                        >Link to location on Google Maps<input
+                            type="url"
+                            name="location"
+                    /></label>
+                </p>
+                <p>How accessible was this spot for you?</p>
+
+                <p>
+                    <input
+                        type="radio"
+                        id="excellent"
+                        name="rate"
+                        value="excellent"
+                    />
+                    <label for="excellent">Excellent</label>
+                </p>
+                <p>
+                    <input type="radio" id="good" name="rate" value="good" />
+                    <label for="good">Good</label>
+                </p>
+                <p>
+                    <input type="radio" id="ok" name="rate" value="ok" />
+                    <label for="ok">OK</label>
+                </p>
+                <p>
+                    <input type="radio" id="bad" name="rate" value="bad" />
+                    <label for="bad">Bad</label>
+                </p>
+                <br />
+                <p>
+                    <label
+                        >Upload a photo of the spot<input
+                            type="file"
+                            name="photo"
+                    /></label>
+                </p>
+            </form>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="mailto:info@hardeenters.nl">Contact us</a></li>
+                <li><a href="submit.html">Submit a spot</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>

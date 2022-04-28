@@ -1,0 +1,13 @@
+$gray: #c3cfe2;
+$purple: #686de0;
+$bg_text: #fff;
+$text_top: #696868;
+$name: #fff;
+$border-radius: 30px;
+$p-size: 28px;
+
+@mixin flex-center() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

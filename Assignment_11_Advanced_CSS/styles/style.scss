@@ -1,0 +1,18 @@
+
+@import './variables.scss';
+@import './testimonial.scss';
+@import './portfolio.scss';
+@import './socials.scss';
+
+/* Global settings */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: $gray;
+    font-family:'Gill Sans', 'Trebuchet MS', sans-serif;
+}
